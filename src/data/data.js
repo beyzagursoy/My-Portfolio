@@ -1,84 +1,176 @@
+import hero from '../assets/images/hero.png'
+import project1 from '../assets/images/project-1.jpg'
+import project2 from '../assets/images/project-2.jpg'
+import project3 from '../assets/images/project-3.jpg'
+
 const data = {
   eng: {
-
     heroSection: {
-      greeting: 'HI!',
       name: 'Alimila Su',
       title: 'Creative thinker Minimalism lover',
       description:
-        "Hi, I'm Almila. I'm a full-stack developer. If you are looking for a developer who crafts scalable frontend products with great user experiences, let's shake hands.",
-      profileImage: '/hero.jpg',
+        "Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
+      profileImage: hero,
       hireBtn: 'Hire me',
       github: 'Github',
       linkedin: 'Linkedin'
     },
 
-    skills: [
+    skillsData: [
       {
         title: 'JavaScript',
         description:
-          'Experienced in modern JavaScript ES6+ development.'
+          'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         title: 'React.Js',
         description:
-          'Building reusable and scalable UI components.'
+          'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         title: 'Node.Js',
         description:
-          'Developing backend APIs with Node.js.'
+          'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       }
     ],
 
-    profile: {
-      birthDate: 'March 24, 1996',
-      city: 'Ankara',
-      education: 'Hacettepe University Biology',
-      role: 'Frontend, UI'
+    profileData: {
+      profileTitle: 'Profile',
+      profile: [{
+        birthDate: '24.03.1996',
+        city: 'Ankara',
+        education: 'Hacettepe University Biology Lisans, 2016',
+        role: 'Frontend, UI'
+      }],
+      aboutTitle: "About Me",
+      about: [{
+        description1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+        description2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+      }]
+    },
+
+    projectsData: {
+      projectsTitle: "Projects",
+      projects: [
+        {
+          title: "Workintech",
+          image: project1,
+          description:
+            "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+          tags: ["react", "redux", "axios"],
+          github: "https://github.com/beyzagursoy",
+          viewSite: "https://github.com/beyzagursoy",
+        },
+        {
+          title: "Random Jokes",
+          image: project2,
+          description:
+            "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+          tags: ["react", "redux", "axios"],
+          github: "https://github.com/beyzagursoy",
+          viewSite: "https://github.com/beyzagursoy",
+        },
+        {
+          title: "Journey",
+          image: project3,
+          description:
+            "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+          tags: ["react", "redux", "axios"],
+          github: "https://github.com/beyzagursoy",
+          viewSite: "https://github.com/beyzagursoy",
+        },
+      ],
+    },
+
+    contactData: {
+      title: "Let’s work together on your next product.",
+      email: "almilasucode@gmail.com",
+      blog: "Personal Blog",
+      github: "Github",
+      linkedin: "Linkedin"
     }
 
   },
 
   tr: {
-
     heroSection: {
-      greeting: 'MERHABA!',
-      name: 'Ben Beyza',
+      name: 'Almila Su',
       title: 'Yaratıcı düşünür Minimalizm sever',
       description:
-        'Merhaba, ben Beyza. Ölçeklenebilir frontend ürünleri geliştiren bir full-stack geliştiriciyim.',
-      profileImage: '/hero.jpg',
+        "Merhaba, ben Almila. Full-stack geliştiriciyim. Harika kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir frontend ürünleri oluşturacak bir geliştirici arıyorsanız; tanışalım.",
+      profileImage: hero,
       hireBtn: 'Beni işe al',
       github: 'Github',
       linkedin: 'Linkedin'
     },
 
-    skills: [
+    skillsData: [
       {
         title: 'JavaScript',
-        description:
-          'Modern JavaScript ES6+ geliştirme deneyimi.'
+        description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         title: 'React.Js',
-        description:
-          'Yeniden kullanılabilir UI componentleri.'
+        description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       },
       {
         title: 'Node.Js',
-        description:
-          'Node.js ile backend API geliştirme.'
+        description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
       }
     ],
 
-    profile: {
-      birthDate: '24 Mart 1996',
-      city: 'Ankara',
-      education: 'Hacettepe Üniversitesi Biyoloji',
-      role: 'Frontend, UI'
-    }
+    profileData: {
+      profileTitle: 'Profil',
+      profile: [{
+        birthDate: '24.03.1996',
+        city: 'Ankara',
+        education: 'Hacettepe Üniversitesi Biyoloji Lisans, 2016',
+        role: 'Frontend, UI'
+      }],
+      aboutTitle: "Hakkımda",
+      about: [{
+        description1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+        description2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+      }]
+    },
 
+    projectsData: {
+      projectsTitle: "Projeler",
+      projects: [
+        {
+          title: "Workintech",
+          image: project1,
+          description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler ile oluşturuldu.",
+          tags: ["react", "redux", "axios"],
+          github: "https://github.com/beyzagursoy",
+          viewSite: "https://github.com/beyzagursoy",
+        },
+        {
+          title: "Random Jokes",
+          image: project2,
+          description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler ile oluşturuldu.",
+          tags: ["react", "redux", "axios"],
+          github: "https://github.com/beyzagursoy",
+          viewSite: "https://github.com/beyzagursoy",
+        },
+        {
+          title: "Journey",
+          image: project3,
+          description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler ile oluşturuldu.",
+          tags: ["react", "redux", "axios"],
+          github: "https://github.com/beyzagursoy",
+          viewSite: "https://github.com/beyzagursoy",
+        },
+      ],
+    },
+
+    contactData: {
+      title: "Bir sonraki projenizde birlikte çalışalım.",
+      email: "almilasucode@gmail.com",
+      blog: "Kişisel Blog",
+      github: "Github",
+      linkedin: "Linkedin"
+    }
   }
 }
 
