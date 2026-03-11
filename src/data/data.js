@@ -1,7 +1,7 @@
 import hero from '../assets/images/hero.png'
-import project1 from '../assets/images/project-1.jpg'
-import project2 from '../assets/images/project-2.jpg'
-import project3 from '../assets/images/project-3.jpg'
+import project1 from '../assets/images/Portfolio-projects-1.png'
+import project2 from '../assets/images/Portfolio-projects-2.png'
+import project3 from '../assets/images/Portfolio-projects-3.png'
 
 const data = {
   eng: {
