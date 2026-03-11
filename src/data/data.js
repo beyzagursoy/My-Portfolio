@@ -86,8 +86,8 @@ const data = {
       title: "Let’s work together on your next product.",
       email: "almilasucode@gmail.com",
       blog: "Personal Blog",
-      github: "Github",
-      linkedin: "Linkedin"
+      github: "https://github.com/beyzagursoy",
+      linkedin: "https://www.linkedin.com/in/beyzagursoy/"
     }
 
   },
@@ -171,8 +171,8 @@ const data = {
       title: "Bir sonraki projenizde birlikte çalışalım.",
       email: "almilasucode@gmail.com",
       blog: "Kişisel Blog",
-      github: "Github",
-      linkedin: "Linkedin"
+      github: "https://github.com/beyzagursoy",
+      linkedin: "https://www.linkedin.com/in/beyzagursoy"
     }
   }
 }
