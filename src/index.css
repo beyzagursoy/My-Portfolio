@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Eğer v4 kullanıyorsan class bazlı dark mode için bunu eklemelisin */
+@theme {
+  --background-color-dark: #1F2937;
+}

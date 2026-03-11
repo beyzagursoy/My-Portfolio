@@ -6,7 +6,7 @@ import project3 from '../assets/images/Portfolio-projects-3.png'
 const data = {
   eng: {
     heroSection: {
-      name: 'Alimila Su',
+      name: 'Almila Su',
       title: 'Creative thinker Minimalism lover',
       description:
         "Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
