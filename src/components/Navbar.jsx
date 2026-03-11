@@ -27,7 +27,7 @@ function Navbar() {
           </label>
 
           <span className="dark:text-[#D9D9D9]">
-            DARK MODE
+            {darkMode ? (lang === "eng" ? "LIGHT MODE" : "AÇIK MOD") : (lang === "eng" ? "DARK MODE" : "KOYU MOD")}
           </span>
 
           <span className="mx-1">|</span>
@@ -52,18 +52,18 @@ function Navbar() {
               href="#skills"
               className="text-[#777777] dark:text-[#6B7280] font-medium text-base md:text-lg"
             >
-              Yetenekler
+              {lang === "eng" ? "Skills" : "Yetenekler"}
             </a>
 
             <a
               href="#projects"
               className="text-[#777777] dark:text-[#6B7280] font-medium text-base md:text-lg"
             >
-              Projeler
+              {lang === "eng" ? "Projects" : "Projeler"}
             </a>
 
             <button className="border-2 border-[#4731D3] text-[#4731D3] dark:bg-white dark:border-white px-6 md:px-8 py-2 md:py-3 rounded-lg font-bold text-base md:text-lg whitespace-nowrap">
-              Beni işe al
+              {lang === "eng" ? "Hire me" : "Beni işe al"}
             </button>
           </div>
 

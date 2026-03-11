@@ -5,6 +5,13 @@ import project3 from '../assets/images/Portfolio-projects-3.png'
 
 const data = {
   eng: {
+    navbar: {
+      darkMode: "DARK MODE",
+      skills: "Skills",
+      projects: "Projects",
+      hireMe: "Hire me"
+    },
+
     heroSection: {
       name: 'Almila Su',
       title: 'Creative thinker Minimalism lover',
@@ -93,6 +100,12 @@ const data = {
   },
 
   tr: {
+    navbar: {
+      darkMode: "KOYU MOD",
+      skills: "Yetenekler",
+      projects: "Projeler",
+      hireMe: "Beni işe al"
+    },
     heroSection: {
       name: 'Almila Su',
       title: 'Yaratıcı düşünür Minimalizm sever',

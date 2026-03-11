@@ -1,11 +1,24 @@
 import React, { useContext } from "react";
 import { SiteContext } from "../context/SiteContext";
 import data from "../data/data";
+import axios from "axios";
 
 function Contact() {
   const { lang } = useContext(SiteContext);
   const { contactData } = data[lang];
 
+  const handleContactClick = () => {
+    axios.post('https://jsonplaceholder.typicode.com/posts', {
+      email: contactData.email,
+      title: "Portfolio Contact",
+      body: "Contact request from portfolio site",
+      userId: 1
+    })
+      .then(res => {
+        console.log("API Success:", res.data); 
+      })
+      .catch(err => console.error("API Error:", err));
+  };
   return (
     <footer className="py-20 bg-[#F9F9F9] dark:bg-dark px-6 md:px-20 lg:px-[125px]">
       <div className="max-w-[1200px] mx-auto">
@@ -22,6 +35,7 @@ function Contact() {
 
             <a
               href={`mailto:${contactData.email}`}
+              onClick={handleContactClick}
               className="text-[#AF0C48] dark:text-[#BAB2E7] font-medium text-xl underline underline-offset-8 decoration-2"
             >
               {contactData.email}
