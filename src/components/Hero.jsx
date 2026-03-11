@@ -7,7 +7,7 @@ function Hero() {
   const hero = data[lang].heroSection
 
   return (
-    <section className="flex justify-between items-center px-16 py-20">
+    <section className="flex justify-between items-center px-31.25 py-20">
 
       <div className="max-w-xl">
 
@@ -45,7 +45,7 @@ function Hero() {
         <img
           src={hero.profileImage}
           alt="profile"
-          className="w-[400px] rounded-xl"
+          className="w-100 rounded-xl"
         />
       </div>
 
