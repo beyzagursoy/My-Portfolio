@@ -16,23 +16,23 @@ const data = {
       linkedin: 'Linkedin'
     },
 
-    skillsData: [
-      {
-        title: 'JavaScript',
-        description:
-          'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-      },
-      {
-        title: 'React.Js',
-        description:
-          'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-      },
-      {
-        title: 'Node.Js',
-        description:
-          'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-      }
-    ],
+    skillsData: {
+      skillsTitle: "Skills",
+      skills: [
+        {
+          title: 'JavaScript',
+          description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        },
+        {
+          title: 'React.Js',
+          description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        },
+        {
+          title: 'Node.Js',
+          description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        }
+      ]
+    },
 
     profileData: {
       profileTitle: 'Profile',
@@ -104,20 +104,23 @@ const data = {
       linkedin: 'Linkedin'
     },
 
-    skillsData: [
-      {
-        title: 'JavaScript',
-        description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-      },
-      {
-        title: 'React.Js',
-        description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-      },
-      {
-        title: 'Node.Js',
-        description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-      }
-    ],
+    skillsData: {
+      skillsTitle: "Yetenekler",
+      skills: [
+        {
+          title: 'JavaScript',
+          description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        },
+        {
+          title: 'React.Js',
+          description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        },
+        {
+          title: 'Node.Js',
+          description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        }
+      ]
+    },
 
     profileData: {
       profileTitle: 'Profil',
