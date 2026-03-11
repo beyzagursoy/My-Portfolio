@@ -14,24 +14,20 @@ function Projects() {
       <div className="grid grid-cols-3 gap-30">
         {projectsData.projects.map((project, index) => (
           <div key={index} className="flex flex-col">
-            {/* Proje Görseli */}
             <img 
               src={project.image} 
               alt={project.title} 
               className="w-full h-50 object-cover mb-6 shadow-sm"
             />
             
-            {/* Proje Başlığı */}
             <h3 className="text-3xl font-medium text-[#4338CA] mb-4">
               {project.title}
             </h3>
-            
-            {/* Açıklama */}
+
             <p className="text-[#6B7280] text-sm leading-relaxed mb-6 grow">
               {project.description}
             </p>
             
-            {/* Tagler (Düğmeler/Rozetler) */}
             <div className="flex gap-2 mb-6">
               {project.tags.map((tag, i) => (
                 <span 
@@ -43,7 +39,6 @@ function Projects() {
               ))}
             </div>
             
-            {/* Linkler */}
             <div className="flex justify-between items-center text-md font-medium">
               <a 
                 href={project.github} 
