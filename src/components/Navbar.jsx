@@ -8,9 +8,16 @@ function Navbar() {
   const handleThemeChange = () => {
     toggleDarkMode();
     if (!darkMode) {
-      toast.dark("Dark mode activated! 🌙", { autoClose: 1500 });
+      const darkMsg = lang === "eng"
+        ? "Dark mode activated! 🌙"
+        : "Koyu mod aktif! 🌙";
+      toast.dark(darkMsg, { autoClose: 1500 });
+
     } else {
-      toast.info("Light mode activated! ☀️", { autoClose: 1500 });
+      const lightMsg = lang === "eng"
+        ? "Light mode activated! ☀️"
+        : "Aydınlık mod aktif! ☀️";
+      toast.info(lightMsg, { autoClose: 1500 });
     }
   };
 
@@ -19,21 +26,21 @@ function Navbar() {
     const isTurkish = lang === "tr";
     toast.success(isTurkish ? "Switched to English! 🇺🇸" : "Türkçe'ye geçildi! 🇹🇷", {
       autoClose: 1500,
-      position: "bottom-right" 
+      position: "bottom-right"
     });
   };
 
   return (
     <nav className="w-full px-6 md:px-20 lg:px-[125px] py-8 dark:bg-dark overflow-x-hidden">
       <div className="max-w-[1200px] mx-auto flex flex-col gap-8">
-        
+
         <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-end items-center gap-2 text-xs md:text-sm font-bold tracking-widest text-[#777777] w-full">
-          
+
           <label className="relative inline-flex items-center cursor-pointer">
             <input
               type="checkbox"
               checked={darkMode}
-              onChange={handleThemeChange} 
+              onChange={handleThemeChange}
               className="sr-only peer"
             />
             <div className="w-12 h-6 bg-[#4731D3] rounded-full peer-checked:bg-[#3A3A3A]
