@@ -57,7 +57,7 @@ function Navbar() {
           <span className="mx-1">|</span>
 
           <button
-            onClick={handleLangChange} // Değiştirdik
+            onClick={handleLangChange} 
             className="text-[#4731D3] dark:text-[#BAB2E7] font-bold"
           >
             {lang === "eng" ? "TÜRKÇE'YE GEÇ" : "SWITCH TO ENGLISH"}

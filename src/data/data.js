@@ -65,8 +65,8 @@ const data = {
           description:
             "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
           tags: ["react", "redux", "axios"],
-          github: "https://github.com/beyzagursoy",
-          viewSite: "https://github.com/beyzagursoy",
+          github: "https://github.com/beyzagursoy/Pizza-React-Project",
+          viewSite: "https://pizza-react-project-q33s.vercel.app/",
         },
         {
           title: "Random Jokes",
@@ -74,8 +74,8 @@ const data = {
           description:
             "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
           tags: ["react", "redux", "axios"],
-          github: "https://github.com/beyzagursoy",
-          viewSite: "https://github.com/beyzagursoy",
+          github: "https://github.com/beyzagursoy/fsweb-s10g2-redux-filmler-solution",
+          viewSite: "https://fsweb-s10g2-redux-filmler-solution-olive-five.vercel.app/",
         },
         {
           title: "Journey",
@@ -83,8 +83,8 @@ const data = {
           description:
             "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
           tags: ["react", "redux", "axios"],
-          github: "https://github.com/beyzagursoy",
-          viewSite: "https://github.com/beyzagursoy",
+          github: "https://github.com/beyzagursoy/html-css-pizza",
+          viewSite: "https://html-css-pizza.vercel.app/",
         },
       ],
     },
