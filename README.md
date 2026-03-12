@@ -1,16 +1,32 @@
-# React + Vite
+# 🚀 Modern Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, modern web teknolojileri kullanılarak geliştirilmiş, yüksek performanslı ve kullanıcı deneyimi odaklı bir kişisel portfolyo uygulamasıdır.
 
-Currently, two official plugins are available:
+## 🔗 Canlı Demo
+[https://my-portfolio-five-sigma-sbmyz5cxzi.vercel.app/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Öne Çıkan Özellikler
 
-## React Compiler
+* **🌍 Tam Lokalizasyon:** Context API kullanılarak hazırlanan sistem sayesinde tek tıkla Türkçe ve İngilizce dil desteği.
+* **🌙 Dinamik Tema Yönetimi:** Karanlık (Dark) ve Aydınlık (Light) mod desteği, kullanıcı tercihlerinin sürekliliği için `localStorage` entegrasyonu.
+* **📱 %100 Responsive:** Tailwind CSS ile "Mobile-First" yaklaşımıyla geliştirilmiş, tüm cihazlarda kusursuz görünüm.
+* **⚡ Dinamik Veri Akışı:** İçeriklerin merkezi bir `data.js` üzerinden yönetilmesi sayesinde kolay güncellenebilir mimari.
+* **📩 API Entegrasyonu:** Axios kullanılarak simüle edilen asenkron iletişim formu ve `react-toastify` ile kullanıcı geri bildirimi.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Kullanılan Teknolojiler
 
-## Expanding the ESLint configuration
+* **Frontend:** React (Hooks & Context API)
+* **Styling:** Tailwind CSS (Responsive Design & Dark Mode)
+* **State Management:** React Context API
+* **HTTP Client:** Axios
+* **Testing:** Cypress (E2E Testing)
+* **Build Tool:** Vite
+* **Notifications:** React-Toastify
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧪 Testler
+
+Proje kalitesini garanti altına almak için **Cypress** ile uçtan uca (E2E) testler yazılmıştır.
+
+```bash
+# Testleri çalıştırmak için:
+npx cypress open
