@@ -2,13 +2,14 @@ import React, { useContext } from "react";
 import { SiteContext } from "../context/SiteContext";
 import data from "../data/data";
 import axios from "axios";
+import { toast } from 'react-toastify';
 
 function Contact() {
   const { lang } = useContext(SiteContext);
   const { contactData } = data[lang];
 
   const handleContactClick = () => {
-    axios.post('https://jsonplaceholder.typicode.com/posts', {
+    axios.post(import.meta.env.VITE_API_URL, {
       email: contactData.email,
       title: "Portfolio Contact",
       body: "Contact request from portfolio site",
@@ -16,8 +17,12 @@ function Contact() {
     })
       .then(res => {
         console.log("API Success:", res.data); 
+        toast.success(lang === "eng" ? "Request sent successfully! 🚀" : "İstek başarıyla iletildi! 🚀");
       })
-      .catch(err => console.error("API Error:", err));
+      .catch(err => {
+        console.error("API Error:", err);
+        toast.error(lang === "eng" ? "Failed to send request! 🚨" : "İstek gönderilirken hata oluştu! 🚨");
+      });
   };
   return (
     <footer className="py-20 bg-[#F9F9F9] dark:bg-dark px-6 md:px-20 lg:px-[125px]">

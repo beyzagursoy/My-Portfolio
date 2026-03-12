@@ -5,7 +5,7 @@ import Skills from './components/Skills'
 import Profile from './components/Profile'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
-
+import { ToastContainer } from 'react-toastify';
 import { SiteProvider } from './context/SiteContext'
 
 function App() {
@@ -18,6 +18,13 @@ function App() {
         <Profile />
         <Projects />
         <Contact />
+        <ToastContainer 
+          position="top-right" 
+          autoClose={2000} 
+          hideProgressBar={false}
+          closeOnClick
+          theme="colored"
+        />
       </div>
     </SiteProvider>
   )
