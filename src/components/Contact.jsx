@@ -29,7 +29,7 @@ function Contact() {
       <div className="max-w-[1200px] mx-auto">
 
         <h2 className="text-4xl md:text-5xl font-bold leading-tight text-[#1F2937] dark:text-[#AEBCCF] mb-16 text-center md:text-left max-w-2xl">
-          Let's work together on your next product.
+          {contactData.title}
         </h2>
 
         <div className="flex flex-col md:flex-row justify-between items-center md:items-center gap-10">
@@ -50,7 +50,7 @@ function Contact() {
           <div className="flex flex-wrap gap-6 md:gap-10 font-medium text-lg justify-center">
 
             <a href="#" className="text-[#0A0A14] dark:text-[#E1E1FF]">
-              Personal Blog
+              {contactData.blog}
             </a>
 
             <a href={contactData.github} className="text-[#00AB6B]">

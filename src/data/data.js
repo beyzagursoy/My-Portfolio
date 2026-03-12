@@ -58,6 +58,8 @@ const data = {
 
     projectsData: {
       projectsTitle: "Projects",
+      viewSiteText: "View Site", 
+      githubText: "Github",
       projects: [
         {
           title: "Workintech",
@@ -152,6 +154,8 @@ const data = {
 
     projectsData: {
       projectsTitle: "Projeler",
+      viewSiteText: "Siteyi Görüntüle", 
+      githubText: "Github",
       projects: [
         {
           title: "Workintech",

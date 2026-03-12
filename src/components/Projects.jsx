@@ -50,13 +50,13 @@ function Projects() {
                   href={project.github}
                   className="text-[#3730A3] dark:text-[#BAB2E7] underline"
                 >
-                  Github
+                  {projectsData.githubText}
                 </a>
                 <a
                   href={project.viewSite}
                   className="text-[#3730A3] dark:text-[#BAB2E7] underline"
                 >
-                  View Site
+                  {projectsData.viewSiteText}
                 </a>
               </div>
             </div>
