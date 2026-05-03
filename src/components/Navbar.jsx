@@ -66,7 +66,7 @@ function Navbar() {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="w-14 h-14 rounded-full bg-[#EEEBFF] dark:bg-[#4731D3] flex items-center justify-center text-[#7B61FF] dark:text-[#8F88FF] text-2xl font-bold rotate-45 shrink-0">
-            A
+            B
           </div>
 
           <div className="flex flex-wrap justify-center md:justify-end items-center gap-6 md:gap-12 text-center">

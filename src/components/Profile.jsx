@@ -48,7 +48,7 @@ function Profile() {
             </div>
           </div>
 
-          <div className="flex-1">
+          <div className="flex-1 ">
 
             <h3 className="text-3xl font-medium text-[#4731D3] dark:text-[#BAB2E7] mb-8">
               {profileData.aboutTitle}
@@ -58,6 +58,8 @@ function Profile() {
 
               <p>{aboutDetails.description1}</p>
               <p>{aboutDetails.description2}</p>
+              <p>{aboutDetails.description3}</p>
+              <p>{aboutDetails.description4}</p>
 
             </div>
           </div>

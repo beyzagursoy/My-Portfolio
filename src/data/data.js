@@ -1,7 +1,7 @@
-import hero from '../assets/images/hero.png'
-import project1 from '../assets/images/Portfolio-projects-1.png'
-import project2 from '../assets/images/Portfolio-projects-2.png'
-import project3 from '../assets/images/Portfolio-projects-3.png'
+import hero from '../assets/images/hero.jpeg'
+import project1 from '../assets/images/Teknolojik-Yemekler.png'
+import project2 from '../assets/images/E-commerce.png'
+import project3 from '../assets/images/Orion.png'
 
 const data = {
   eng: {
@@ -13,10 +13,10 @@ const data = {
     },
 
     heroSection: {
-      name: 'Almila Su',
+      name: 'Beyza Gürsoy',
       title: 'Creative thinker Minimalism lover',
       description:
-        "Hi, I’m Almila. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with great user experiences. Let’s shake hands with me.",
+        "Hi, I’m Beyza. I’m a full-stack developer. If you are looking for a Developer who to craft solid and scalable full-stack products with great user experiences. Let’s shake hands with me.",
       profileImage: hero,
       hireBtn: 'Hire me',
       github: 'Github',
@@ -28,15 +28,19 @@ const data = {
       skills: [
         {
           title: 'JavaScript',
-          description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+          description: 'Strong understanding of ES6+, asynchronous programming, and modern JavaScript concepts. Experienced in building dynamic and interactive web applications.'
         },
         {
           title: 'React.Js',
-          description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+          description: 'Experienced in building scalable and reusable component-based applications using React, Hooks, and state management. Focused on clean UI and performance.'
         },
         {
-          title: 'Node.Js',
-          description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+          title: 'Java',
+          description: 'Familiar with object-oriented programming principles and basic data structures. Able to develop simple backend logic and continuously improving my Java skills. I also pay attention to writing clean and maintainable code.'
+        },
+        {
+          title: 'Cypress',
+          description: 'Used Cypress for end-to-end testing of web applications. Experienced in writing test scenarios, automating user flows, and ensuring application reliability.'
         }
       ]
     },
@@ -44,56 +48,55 @@ const data = {
     profileData: {
       profileTitle: 'Profile',
       profile: [{
-        birthDate: '24.03.1996',
-        city: 'Ankara',
-        education: 'Hacettepe University Biology Lisans, 2016',
-        role: 'Frontend, UI'
+        birthDate: '22.07.2001',
+        city: 'Burdur',
+        education: 'Süleyman Demirel University Computer Engineer Lisans, 2024',
+        role: 'Software Developer'
       }],
       aboutTitle: "About Me",
       about: [{
-        description1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-        description2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+        description1: "Hi, I'm Beyza Gürsoy, a Computer Engineering graduate from Süleyman Demirel University, with a strong interest in full-stack development and machine learning.",
+        description2: "On the web development side, I build modern, user-focused applications using technologies like React, Java, Cypress, and MongoDB. I also care deeply about user experience (UX) and interface design (UI), aiming to create not only functional but also intuitive and visually appealing products.",
+        description3: "In the field of machine learning, I have developed data-driven projects using PyTorch, LSTM, and GRU models. I enjoy analyzing data and turning it into meaningful insights to solve real-world problems.",
+        description4: "As a self-motivated and continuous learner, I am eager to contribute to innovative projects and grow as a developer."
       }]
     },
 
     projectsData: {
       projectsTitle: "Projects",
-      viewSiteText: "View Site", 
+      viewSiteText: "View Site",
       githubText: "Github",
       projects: [
         {
-          title: "Workintech",
+          title: "Teknolojik Yemekler",
           image: project1,
-          description:
-            "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-          tags: ["react", "redux", "axios"],
+          description: "A pizza ordering application built with React. Users can browse products, add items to the cart, and manage the ordering process. State management and API operations are handled using Redux and Axios.",
+          tags: ["react", "react-hooks", "axios", "javascript", "css", "frontend"],
           github: "https://github.com/beyzagursoy/Pizza-React-Project",
           viewSite: "https://pizza-react-project-q33s.vercel.app/",
         },
         {
-          title: "Random Jokes",
+          title: "E-commerce",
           image: project2,
-          description:
-            "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-          tags: ["react", "redux", "axios"],
-          github: "https://github.com/beyzagursoy/fsweb-s10g2-redux-filmler-solution",
-          viewSite: "https://fsweb-s10g2-redux-filmler-solution-olive-five.vercel.app/",
+          description: "A modern e-commerce application where users can browse products, view product details, and add items to the cart. Built with React with a focus on user experience and performance.",
+          tags: ["react", "redux", "javascript", "axios", "tailwindcss", "frontend"],
+          github: "https://github.com/beyzagursoy/E-commerce-project",
+          viewSite: "https://e-commerce-project-nine-lyart.vercel.app/",
         },
         {
-          title: "Journey",
+          title: "Orion",
           image: project3,
-          description:
-            "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
-          tags: ["react", "redux", "axios"],
-          github: "https://github.com/beyzagursoy/html-css-pizza",
-          viewSite: "https://html-css-pizza.vercel.app/",
+          description: "A Spotify-inspired music application built with React. Users can browse music, create albums, and manage content.",
+          tags: ["react", "tailwindcss", "ui", "frontend"],
+          github: "https://github.com/beyzagursoy/Orion",
+          viewSite: "https://orion-musicapp.netlify.app/",
         },
       ],
     },
 
     contactData: {
       title: "Let’s work together on your next product.",
-      email: "almilasucode@gmail.com",
+      email: "beyzagursoyceng@gmail.com",
       blog: "Personal Blog",
       github: "https://github.com/beyzagursoy",
       linkedin: "https://www.linkedin.com/in/beyzagursoy/"
@@ -109,10 +112,10 @@ const data = {
       hireMe: "Beni işe al"
     },
     heroSection: {
-      name: 'Almila Su',
+      name: 'Beyza Gürsoy',
       title: 'Yaratıcı düşünür Minimalizm sever',
       description:
-        "Merhaba, ben Almila. Full-stack geliştiriciyim. Harika kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir frontend ürünleri oluşturacak bir geliştirici arıyorsanız; tanışalım.",
+        "Merhaba, ben Beyza. Full-stack geliştiriciyim. Harika kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir full-stack ürünleri oluşturacak bir geliştirici arıyorsanız; tanışalım.",
       profileImage: hero,
       hireBtn: 'Beni işe al',
       github: 'Github',
@@ -124,15 +127,19 @@ const data = {
       skills: [
         {
           title: 'JavaScript',
-          description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+          description: 'ES6+ özellikleri, asenkron programlama ve modern JavaScript kavramlarına hakimim. Dinamik ve etkileşimli web uygulamaları geliştirme deneyimine sahibim.'
         },
         {
           title: 'React.Js',
-          description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+          description: 'React, Hooks ve state yönetimi kullanarak ölçeklenebilir ve yeniden kullanılabilir bileşen tabanlı uygulamalar geliştiriyorum. Temiz arayüz ve performansa odaklanırım.'
         },
         {
-          title: 'Node.Js',
-          description: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+          title: 'Java',
+          description: 'Nesne yönelimli programlama prensiplerine aşinayım ve temel veri yapıları konusunda bilgi sahibiyim. Basit backend mantıkları geliştirebiliyor ve Java becerilerimi geliştirmeye devam ediyorum. Sürdürülebilir ve düzenli kod yazmaya önem veririm.'
+        },
+        {
+          title: 'Cypress',
+          description: 'Web uygulamalarında uçtan uca (end-to-end) testler yazmak için Cypress kullandım. Test senaryoları oluşturma, kullanıcı akışlarını otomatikleştirme ve uygulama güvenilirliğini sağlama konusunda deneyimliyim.'
         }
       ]
     },
@@ -140,56 +147,58 @@ const data = {
     profileData: {
       profileTitle: 'Profil',
       profile: [{
-        birthDate: '24.03.1996',
-        city: 'Ankara',
-        education: 'Hacettepe Üniversitesi Biyoloji Lisans, 2016',
-        role: 'Frontend, UI'
+        birthDate: '22.07.2001',
+        city: 'Burdur',
+        education: 'Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği Lisans, 2024',
+        role: 'Software Developer'
       }],
       aboutTitle: "Hakkımda",
       about: [{
-        description1: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
-        description2: "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+        description1: "Merhaba, ben Beyza Gürsoy. Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği mezunuyum ve full-stack geliştirme ile makine öğrenmesi alanlarında kendimi geliştirmekteyim.",
+        description2: "Web geliştirme tarafında React, Java, Cypress ve MongoDB teknolojileriyle modern ve kullanıcı odaklı uygulamalar geliştiriyorum. Aynı zamanda kullanıcı deneyimi (UX) ve arayüz tasarımına (UI) önem vererek, sadece çalışan değil aynı zamanda etkili ve estetik ürünler ortaya çıkarmayı hedefliyorum.",
+        description3: "Makine öğrenmesi alanında ise PyTorch, LSTM ve GRU modelleri ile veri odaklı projeler geliştirdim. Analitik düşünme yeteneğim sayesinde verileri anlamlandırarak gerçek dünya problemlerine çözümler üretmeyi seviyorum.",
+        description4: "Kendini sürekli geliştiren, öğrenmeye açık ve takım çalışmasına yatkın bir geliştirici olarak, yenilikçi projelerde yer almayı ve değer katmayı hedefliyorum."
       }]
     },
 
     projectsData: {
       projectsTitle: "Projeler",
-      viewSiteText: "Siteyi Görüntüle", 
+      viewSiteText: "Siteyi Görüntüle",
       githubText: "Github",
       projects: [
         {
-          title: "Workintech",
+          title: "Teknolojik Yemekler",
           image: project1,
-          description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler ile oluşturuldu.",
-          tags: ["react", "redux", "axios"],
+          description: "React kullanılarak geliştirilmiş bir pizza sipariş uygulamasıdır. Kullanıcılar ürünleri görüntüleyebilir, sepete ekleyebilir ve sipariş sürecini yönetebilir. State yönetimi ve API işlemleri Redux ve Axios ile gerçekleştirilmiştir.",
+          tags: ["react", "react-hooks", "axios", "javascript", "css", "frontend"],
           github: "https://github.com/beyzagursoy/Pizza-React-Project",
           viewSite: "https://pizza-react-project-q33s.vercel.app/",
         },
         {
-          title: "Random Jokes",
+          title: "E-commerce",
           image: project2,
-          description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler ile oluşturuldu.",
-          tags: ["react", "redux", "axios"],
-          github: "https://github.com/beyzagursoy/fsweb-s10g2-redux-filmler-solution",
-          viewSite: "https://fsweb-s10g2-redux-filmler-solution-olive-five.vercel.app/",
+          description: "Modern bir e-ticaret uygulamasıdır. Kullanıcılar ürünleri listeleyebilir, detaylarını inceleyebilir ve sepete ekleyebilir. React ile geliştirilen projede kullanıcı deneyimi ve performans ön planda tutulmuştur.",
+          tags: ["react", "javascript", "axios", "tailwindcss", "frontend"],
+          github: "https://github.com/beyzagursoy/E-commerce-project",
+          viewSite: "https://e-commerce-project-nine-lyart.vercel.app/",
         },
         {
-          title: "Journey",
+          title: "Orion",
           image: project3,
-          description: "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler ile oluşturuldu.",
-          tags: ["react", "redux", "axios"],
-          github: "https://github.com/beyzagursoy/html-css-pizza",
-          viewSite: "https://html-css-pizza.vercel.app/",
+          description: "React kullanılarak geliştirilmiş Spotify benzeri bir müzik uygulamasıdır. Kullanıcılar müzikleri listeleyebilir, albümler oluşturabilir ve içerikleri yönetebilir.",
+          tags: ["react", "tailwindcss", "ui", "frontend"],
+          github: "https://github.com/beyzagursoy/Orion",
+          viewSite: "https://orion-musicapp.netlify.app/",
         },
       ],
     },
 
     contactData: {
       title: "Bir sonraki projenizde birlikte çalışalım.",
-      email: "almilasucode@gmail.com",
+      email: "beyzagursoyceng@gmail.com",
       blog: "Kişisel Blog",
       github: "https://github.com/beyzagursoy",
-      linkedin: "https://www.linkedin.com/in/beyzagursoy"
+      linkedin: "https://www.linkedin.com/in/beyzagursoy/"
     }
   }
 }
