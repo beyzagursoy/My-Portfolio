@@ -70,7 +70,7 @@ const data = {
         {
           title: "Teknolojik Yemekler",
           image: project1,
-          description: "A pizza ordering application built with React. Users can browse products, add items to the cart, and manage the ordering process. State management and API operations are handled using Redux and Axios.",
+          description: " A pizza ordering application built with React. The project includes routing, form management, and data flow handling using prop lifting, allowing users to create customized pizza orders through a dynamic form. Form validation, user interactions, and POST requests to an API using Axios are implemented. Additionally, end-to-end tests are written using Cypress.",
           tags: ["react", "react-hooks", "axios", "javascript", "css", "frontend"],
           github: "https://github.com/beyzagursoy/Pizza-React-Project",
           viewSite: "https://pizza-react-project-q33s.vercel.app/",
@@ -169,7 +169,7 @@ const data = {
         {
           title: "Teknolojik Yemekler",
           image: project1,
-          description: "React kullanılarak geliştirilmiş bir pizza sipariş uygulamasıdır. Kullanıcılar ürünleri görüntüleyebilir, sepete ekleyebilir ve sipariş sürecini yönetebilir. State yönetimi ve API işlemleri Redux ve Axios ile gerçekleştirilmiştir.",
+          description: "React ile geliştirilmiş bir pizza sipariş uygulaması projesidir. Uygulamada routing yapısı, form yönetimi ve veri akışı (prop lifting) kullanılarak kullanıcıların pizza siparişi oluşturabileceği dinamik bir form geliştirilmiştir. Form doğrulama, kullanıcı etkileşimleri ve Axios ile API’ye POST isteği gönderme süreçleri uygulanmıştır. Ayrıca Cypress ile uçtan uca (end-to-end) testler yazılmıştır.",
           tags: ["react", "react-hooks", "axios", "javascript", "css", "frontend"],
           github: "https://github.com/beyzagursoy/Pizza-React-Project",
           viewSite: "https://pizza-react-project-q33s.vercel.app/",
